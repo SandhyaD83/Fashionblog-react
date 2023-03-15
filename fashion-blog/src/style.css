@@ -1,0 +1,67 @@
+body {
+    border-left: solid lightgray 5px;
+    font-family: sans-serif;
+    font-weight: lighter;
+    min-height: 100%;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.header,
+.footer,
+.main {
+    padding: 1rem 2rem;
+}
+
+.footer nav ul a {
+    color: tomato;
+}
+
+.footer p {
+    color: lightgray;
+    font-family:
+}
+
+h1 {
+    color: tomato;
+    font-size: 70px;
+    font-weight: lighter;
+}
+
+img {
+    width: 100%
+}
+
+.navigation {
+    color: lightgray;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+
+}
+
+li a {
+    color: lightgray
+}
+
+article {
+    margin-bottom: 4rem;
+    border-bottom: solid lightgray 1px;
+    padding-bottom: 2rem;
+}
+
+article h3 {
+    text-align: right;
+}
+
+article h3 a {
+    color: tomato;
+}
+
+article p::first-letter {
+    font-size: 450%;
+    color: lightGray;
+}
